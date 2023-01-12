@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckingPassword.cs" />
     <Compile Include="EmailChecking.cs" />
     <Compile Include="MobileNoCheck.cs" />
     <Compile Include="Registration2.cs" />
