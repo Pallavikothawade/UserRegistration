@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UserRagistration
 {
-    class Emailcheck
+    class EmailChecking
     {
         public void Email()
         {

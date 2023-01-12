@@ -19,6 +19,12 @@ namespace UserRegistration
             Registration2 registration2 = new Registration2();
             registration2.LastNameUC2();
 
+            EmailChecking checkEmail = new EmailChecking();
+            checkEmail.Email();
+
+            MobileNoCheck MNC = new MobileNoCheck();
+            MNC.Mobile();
+
             Console.ReadLine();
         }
     }
