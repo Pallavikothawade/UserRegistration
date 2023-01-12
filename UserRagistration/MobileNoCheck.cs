@@ -12,7 +12,7 @@ namespace UserRagistration
         public void Mobile()
         {
             //UC4 Checking Mobile
-            string Pattern = "^91[ ][0-9]{10}$";
+            string Pattern = "^[0-9]{2}[ ][0-9]{10}$";
             string[] Mobile = { "91 9919819801" };
 
             foreach (string input in Mobile)
