@@ -16,6 +16,9 @@ namespace UserRegistration
             Registration registration = new Registration();
             registration.FirstNameUC1();
 
+            Registration2 registration2 = new Registration2();
+            registration2.LastNameUC2();
+
             Console.ReadLine();
         }
     }

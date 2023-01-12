@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace UserRagistration
 {
-    class Registration
+    class Registration2
     {
-        public void FirstNameUC1()
+        public void LastNameUC2()
         {
-            //UC1 Checking First Name
-             string Pattern = "^[A-Z]{1}[a-z]{2,}$";
-             string[] FirstName = { "Pallavi" ,"Priyansh","jayesh","kushal"};
+            //UC2 Checking Last Name
+            string Pattern = "^[A-Z]{1}[a-z]{2,}$";
+            string[] FirstName = { "Kothawade", "Shirole" };
 
             foreach (string input in FirstName)
             {
@@ -27,9 +27,5 @@ namespace UserRagistration
                 }
             }
         }
-
-       
-
-
     }
 }
